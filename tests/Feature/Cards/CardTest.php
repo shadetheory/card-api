@@ -2,6 +2,7 @@
 
 use App\Models\Card;
 use App\Models\Suit;
+use Illuminate\Database\QueryException;
 
 it('can be soft deleted and restored', function () {
     $card = Card::factory()->create();
@@ -28,6 +29,6 @@ it('has a valid suit relationship', function () {
 });
 
 it('throws an error for invalid rank or suit_id', function () {
-    $this->expectException(\Illuminate\Database\QueryException::class);
+    $this->expectException(QueryException::class);
     Card::factory()->create(['rank' => 'InvalidRank', 'suit_id' => 999]);
 });

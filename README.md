@@ -1,6 +1,6 @@
 # Card API Project
 
-[![Tests](https://github.com/jordanpartridge/card-api/actions/workflows/laravel.yml/badge.svg)](https://github.com/jordanpartridge/card-api/actions/workflows/laravel.yml) [![Duster Fix](https://github.com/jordanpartridge/card-api/actions/workflows/duster-fix-blame.yml/badge.svg)](https://github.com/jordanpartridge/card-api/actions/workflows/duster-fix-blame.yml)
+[![Tests](https://github.com/shadetheory/card-api/actions/workflows/laravel.yml/badge.svg)](https://github.com/shadetheory/card-api/actions/workflows/laravel.yml) [![Duster Fix](https://github.com/shadetheory/card-api/actions/workflows/duster-fix-blame.yml/badge.svg)](https://github.com/shadetheory/card-api/actions/workflows/duster-fix-blame.yml)
 
 ## About Card API
 
